@@ -1,0 +1,74 @@
+.button{
+    text-align: center;
+    margin: 10px;
+}
+.submitBtn{
+    padding: 15px 35px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    font-family: "Raleway";
+    color: white;
+    background: linear-gradient(180deg, #384E62 0%, #319BBF 100%);
+    border-radius: 20px;
+}
+.submitBtn:hover{
+    background: linear-gradient(180deg, #319BBF 0%, #384E62 100%);
+}
+.com{
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+}
+.subtitulo{
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+.seccComunicate{
+    background-image: url(../img/seccComunicate/fondo.jpg);
+    width: 100%;
+    float: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+}
+.signupFrm{
+    width: 100%;
+    float: center;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 14px;
+}
+.input{
+    margin-right: 33%;
+    margin-left: 33%;
+    text-align: left;
+}
+.checkboxServicios{
+    margin-right: 33%;
+    margin-left: 33%;
+    text-align: left;
+}
+.checkboxServicios input[type="checkbox"]{
+    margin-right: 10px;
+}
+.input input[type="text"], .input input[type="email"], .input input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Raleway";
+    font-size: 14px;
+}
