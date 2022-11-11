@@ -1,0 +1,1 @@
+cnx = mysql.connector.connect(user="ovni", password="ContentOfValue", host="contentofvalue.mysql.database.azure.com", port=3306, database="cov", ssl_ca="../certificacion para data base/DigiCertGlobalRootCA.crt.pem", ssl_disabled=False)
