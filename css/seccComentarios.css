@@ -1,0 +1,36 @@
+.imagen{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.imagenCliente{
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    text-align: center;
+    background-position: center;
+}
+.centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway";
+}
+
+.comentarios{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+}
