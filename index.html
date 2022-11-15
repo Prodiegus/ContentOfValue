@@ -7,90 +7,150 @@
     <link rel="stylesheet" href="css/seccMarketing.css">
     <link rel="stylesheet" href="css/seccComunicate.css">
     <link rel="stylesheet" href="css/seccComentarios.css">
+    <link rel="stylesheet" href="css/seccNovedades.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <title>Menú | Content of Value</title>
+    <title>Content Of Value</title>
 </head>
-<body>
-        <div class="seccMarketing">
-            <h1 class="mar">Marketing Digital</h1>
-            <div class="tabla">
-                <div class="fila">
-                    <div class="columna">
-                        <img src="img\seccMarketing\calendarizacion.png" alt="calendarización"> 
-                    </div>
-                    <div class="columna">
-                        <img src="img\seccMarketing\como.png" alt="como informar">
-                    </div>
-                    <div class="columna">
-                        <img src="img\seccMarketing\campañas.png" alt="campañas publicitarias">
-                    </div>
+<body style="font-family: 'Raleway';font-size: 22px; margin: 0; padding: 0;">
+
+    
+
+    <div id="seccNovedades">
+        <img id="imgFondo" src="./img/seccNovedades/FondoS.svg">
+        <div id="ContenedorNovedad">
+            <h1 id="tituloNovedad">Titulo novedad</h1>
+            <h2 id="descNovedad"> Descripción del video</h2>
+        </div>
+        <img id="celular" src="./img/seccNovedades/iPhone X.png">
+        <a href="https://wa.me/7771922041">
+            <div class="botonNovedades">
+                <p class="txtBoton"> Contactar</p>
+            </div>
+        </a>
+        
+    </div>
+    <div id="seccMarketing">
+        <h1 class="mar">Marketing Digital</h1>
+        <div class="tabla">
+            <div class="fila">
+                <div class="columna">
+                    <img src="img\seccMarketing\calendarizacion.png" alt="calendarización"> 
+                </div>
+                <div class="columna">
+                    <img src="img\seccMarketing\como.png" alt="como informar">
+                </div>
+                <div class="columna">
+                    <img src="img\seccMarketing\campañas.png" alt="campañas publicitarias">
                 </div>
             </div>
-            <div class="boton">
-                <button class="llamar" href="marketing.html">Llamar</button> 
-            </div>
         </div>
-        <div class="seccComentarios">
-            <h1 class="comentarios">¡Comentarios de nuestros clientes!</h1>
-            <div class="imagen">
-                <img src="img\seccComentarios\Comentarios.png" alt="comentarios">
-                <div class="centrado">Desde que trabaje con Content of Value he tenido muy buenos resultados.</div> <!--Aquí es donde va el comentario del cliente, por el momento lo puse como texto-->
+        <div class="boton">
+            <button class="llamar" href="marketing.html">Llamar</button> 
+        </div>
+    </div>
+    <div id="seccComentarios">
+        <h1 class="comentarios">¡Comentarios de nuestros clientes!</h1>
+        <div class="imagen">
+            <img src="img\seccComentarios\Comentarios.png" alt="comentarios">
+            <div class="centrado">Desde que trabaje con Content of Value he tenido muy buenos resultados.</div> <!--Aquí es donde va el comentario del cliente, por el momento lo puse como texto-->
+        </div>
+        <div class="imagenCliente">
+            <img src="img\seccComentarios\cliente.png" alt="cliente"> <!--Aquí es donde puedes ir cambiando la imagen del cliente-->
+        </div>
+        
+    </div>
+    <div id="seccComunicate">
+        <div class="Formulario">
+            <div class="signupFrm">
+                <form action="" class="form">
+                    <h1 class="com">¡Comunicate con nosotros!,</h1>
+                    <p class="subtitulo">Dejanos tu información para compartirte más información</p>                 
+                <div class="input">
+                    <div class="inputContainer">
+                        <span>Nombre</span>
+                        <input type="text" name="Nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="inputContainer">
+                        <span>Apellido</span>
+                        <input type="text" name="Apellido" placeholder="Apellido" required>
+                    </div>
+                    <div class="inputContainer">
+                        <span>Correo</span>
+                        <input type="text" name="Correo" placeholder="Correo" required>
+                    </div>
+                </div>
+                <p class="subtitulo">Servicios de interes: </p>
+                <div class="checkboxServicios">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkboxMarketing">
+                        <label for="checkbox">Servicios de marketing</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkboxAds">
+                        <label for="checkbox">Facebook Ads & Google Ads</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkboxWeb">
+                        <label for="checkbox">Tecnología en tu marca</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkboxPublicitarios">
+                        <label for="checkbox">Videos publicitarios</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Me interesa recibir correos con información sobre Content o Value </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit" class="submitBtn" value="Sign up">Enviar</button>
+                </form>
+                </div>
             </div>
-            <div class="imagenCliente">
-                <img src="img\seccComentarios\cliente.png" alt="cliente"> <!--Aquí es donde puedes ir cambiando la imagen del cliente-->
-            </div>
+    </div>
+
+    <nav id="menu">
+        <div id="columna1Grid">
+            <ul>
+                <li class="opcMenu"><a href="#seccMarketing" class="txtMenu">Marketing digital</a></li>
+                <li class="opcMenu"><a href="#" class="txtMenu">Creamos tu página y app</a></li>
+                <li class="opcMenu"><a href="#seccComentarios" class="txtMenu">Clientes</a></li>
+                <li class="opcMenu"><a href="#seccComunicate" class="txtMenu">Contactar</a></li>
+            </ul>
+        </div>
+
+        <div id="columna2Grid">
+            <a href="#seccNovedades">
+                <img id="logo" src="./img/menu/ContentOfValue-Logo.svg"/>
+            </a>
             
         </div>
-        <div class="seccComunicate">
-            <div class="Formulario">
-                <div class="signupFrm">
-                    <form action="" class="form">
-                      <h1 class="com">¡Comunicate con nosotros!,</h1>
-                      <p class="subtitulo">Dejanos tu información para compartirte más información</p>                 
-                    <div class="input">
-                        <div class="inputContainer">
-                            <span>Nombre</span>
-                            <input type="text" name="Nombre" placeholder="Nombre" required>
-                        </div>
-                        <div class="inputContainer">
-                            <span>Apellido</span>
-                            <input type="text" name="Apellido" placeholder="Apellido" required>
-                        </div>
-                        <div class="inputContainer">
-                            <span>Correo</span>
-                            <input type="text" name="Correo" placeholder="Correo" required>
-                        </div>
-                    </div>
-                    <p class="subtitulo">Servicios de interes: </p>
-                    <div class="checkboxServicios">
-                        <div class="checkbox">
-                            <input type="checkbox" name="checkbox" id="checkboxMarketing">
-                            <label for="checkbox">Servicios de marketing</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" name="checkbox" id="checkboxAds">
-                            <label for="checkbox">Facebook Ads & Google Ads</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" name="checkbox" id="checkboxWeb">
-                            <label for="checkbox">Tecnología en tu marca</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" name="checkbox" id="checkboxPublicitarios">
-                            <label for="checkbox">Videos publicitarios</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" name="checkbox" id="checkbox">
-                            <label for="checkbox">Me interesa recibir correos con información sobre Content o Value </label>
-                        </div>
-                    </div>
-                    <div class="button">
-                      <button type="submit" class="submitBtn" value="Sign up">Enviar</button>
-                    </form>
-                    </div>
-                </div>
-            </div>
 
+        <div id="columna3Grid">
+            <ul>
+                <li class="iconoRedSocial">
+                    <a href="https://www.instagram.com/contentofvalue/" class="decoracionLink">
+                        <img src="./img/menu/Instagram.svg"/>
+                    </a>
+                </li>
+
+                <li class="iconoRedSocial">
+                    <a href="https://www.facebook.com/Content-Of-Value-111713101178107/?ref=pages_you_manage" class="decoracionLink">
+                        <img src="./img/menu/Facebook.svg"/>
+                    </a>
+                </li>
+
+                <li class="iconoRedSocial">
+                    <a href="https://wa.me/7771922041" class="decoracionLink">
+                        <img src="./img/menu/WhatsApp.svg"/>
+                    </a>
+                    
+                </li>
+            </ul>
         </div>
+        
+    </nav>
+
 </body>
 </html>

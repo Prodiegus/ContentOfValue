@@ -33,7 +33,7 @@
     font-family: 'Raleway';
     font-size: 20px;
 }
-.seccComunicate{
+#seccComunicate{
     background-image: url(../img/seccComunicate/fondo.jpg);
     width: 100%;
     float: center;
