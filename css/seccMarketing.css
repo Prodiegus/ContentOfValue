@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
 }
+#seccMarketing{
+  margin-top: 30px;
+}
 .mar{
+  padding-top: 30px;
   font-size: 2em;
   font-weight: bold;
   color: #000;
@@ -10,6 +14,7 @@
   font-size: 50px;
 }
 .tabla{
+  margin-top: 100px;
   width: 100%;
   float: center;
 }
@@ -35,13 +40,18 @@
     max-height: 100%;
     text-align: center;
 }
-.boton{
+.botonMarketing{
   text-align: center;
+  margin-top: 60px;
+  padding-bottom: 40px;
 }
 .llamar{
+  width: 260px;
+  height: 108px;
   padding: 15px 35px;
   text-align: center;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 36px;
   margin: 4px 2px;
   cursor: pointer;
   border: none;

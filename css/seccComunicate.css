@@ -18,12 +18,11 @@
     background: linear-gradient(180deg, #319BBF 0%, #384E62 100%);
 }
 .com{
-    font-size: 2em;
-    font-weight: bold;
+    font-weight: 1100;
+    font-size: 40px;
     color: #000;
     text-align: center;
     font-family: 'Raleway';
-    font-size: 25px;
 }
 .subtitulo{
     font-size: 2em;
