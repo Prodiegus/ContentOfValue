@@ -38,23 +38,6 @@
     font-size: 32px;
 }
 
-.botonNovedades{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    width: 233px;
-    height: 92px;
-    left: 50%;
-    top: 602px;
-    background: #000000;
-    border-radius: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.txtBoton{
-    color: white;
-    font-weight: 800;
-    font-size: 26px;
+.btnNovedades{
+    margin-top: 602px;
 }

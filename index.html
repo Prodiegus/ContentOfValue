@@ -10,54 +10,57 @@
     <link rel="stylesheet" href="css/seccComentarios.css">
     <link rel="stylesheet" href="css/seccNovedades.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/index.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Content Of Value</title>
 </head>
 <body style="font-family: 'Raleway';font-size: 22px; margin: 0; padding: 0;">
 
     <div id="seccNovedades">
         <img id="imgFondo" src="./img/seccNovedades/FondoS.svg">
-        <div id="ContenedorNovedad">
+        <div id="ContenedorNovedad" data-aos="fade-up">
             <h1 id="tituloNovedad">Titulo novedad</h1>
             <h2 id="descNovedad"> Descripción del video</h2>
         </div>
-        <img id="celular" src="./img/seccNovedades/iPhone X.png">
+        <img id="celular" src="./img/seccNovedades/iPhone X.png" data-aos="fade-up">
         <a href="https://wa.me/7771922041">
-            <div class="botonNovedades">
-                <p class="txtBoton"> Contactar</p>
+            <div class="boton btnNovedades">
+                <p class="txtBoton">Contactar</p>
             </div>
         </a>
         
     </div>
+
     <div id="seccMarketing">
-        <h1 class="mar">Marketing Digital</h1>
-        <div class="tabla">
-            <div class="fila">
-                <div class="columna">
-                    <img src="img\seccMarketing\calendarizacion.png" alt="calendarización"> 
-                </div>
-                <div class="columna">
-                    <img src="img\seccMarketing\como.png" alt="como informar">
-                </div>
-                <div class="columna">
-                    <img src="img\seccMarketing\campañas.png" alt="campañas publicitarias">
-                </div>
+        <h1 class="tituloSecciones">Marketing Digital</h1>
+        <div id="itemsSeccion" data-aos="fade-up">
+            <div id="item1">
+                <img src="./img/seccMarketing/Calendarización.svg"/>
+            </div>
+            <div id="item2">
+                <img src="./img/seccMarketing/Campañas.svg"/>
+            </div>
+            <div id="item3">
+                <img src="./img/seccMarketing/Info.svg"/>
             </div>
         </div>
-        <div class="botonMarketing">
-            <button class="llamar" href="marketing.html">Llamar</button> 
-        </div>
+        <a href="https://wa.me/7771922041">
+            <div class="boton btnMarketing" style="background: linear-gradient(180deg, #384E62 0%, #319BBF 100%);">
+                <p class="txtBoton">Llamar</p>
+            </div>
+        </a>
     </div>
 
     <div id="seccCrear">
         <div id="contenidoCrear">
-            <h1 class="tituloCrear">Te hacemos tu:</h1>
-            <div id="circulo1">
+            <h1 class="tituloSecciones" data-aos="fade-up">Te hacemos tu:</h1>
+            <div id="circulo1" data-aos="fade-up">
                 <img class="imgEjem1" src="./img/seccCrear/pagina.png">
                 <img class="imgItem1" src="./img/seccCrear/laptop 1.png">
                 <h2 class="txtSecc1">Página web</h2>
             </div>
-            <div id="circulo2">
+            <div id="circulo2" data-aos="fade-up">
                 <img class="imgEjem2" src="./img/seccCrear/smartphone.png">
                 <h2 class="txtSecc2">Aplicación móvil</h2>
             </div>
@@ -67,18 +70,19 @@
 
     <div id="seccComentarios">
         <h1 class="comentarios">¡Comentarios de nuestros clientes!</h1>
-        <div class="imagen">
+        <div class="imagen" data-aos="fade-up">
             <img src="img\seccComentarios\Comentarios.png" alt="comentarios">
-            <div class="centrado">Desde que trabaje con Content of Value he tenido muy buenos resultados.</div> <!--Aquí es donde va el comentario del cliente, por el momento lo puse como texto-->
+            <div class="centrado">Desde que trabaje con Content of Value he tenido muy buenos resultados.</div> 
         </div>
-        <div class="imagenCliente">
-            <img src="img\seccComentarios\cliente.png" alt="cliente"> <!--Aquí es donde puedes ir cambiando la imagen del cliente-->
+        <div class="imagenCliente" data-aos="fade-up">
+            <img src="img\seccComentarios\cliente.png" alt="cliente">
         </div>
         
     </div>
+
     <div id="seccComunicate">
         <div class="Formulario">
-            <div class="signupFrm">
+            <div class="signupFrm" data-aos="fade-up">
                 <form action="" class="form">
                     <h1 class="com">¡Comunicate con nosotros!</h1>
                     <p class="subtitulo">Dejanos tu información para compartirte más información</p>                 
@@ -97,6 +101,7 @@
                     </div>
                 </div>
                 <p class="subtitulo">Servicios de interes: </p>
+
                 <div class="checkboxServicios">
                     <div class="checkbox">
                         <input type="checkbox" name="checkbox" id="checkboxMarketing">
@@ -119,8 +124,8 @@
                         <label for="checkbox">Me interesa recibir correos con información sobre Content o Value </label>
                     </div>
                 </div>
-                <div class="button">
-                    <button type="submit" class="submitBtn" value="Sign up">Enviar</button>
+
+                <button type="submit" class="submitBtn" value="Sign up">Enviar</button>
                 </form>
                 </div>
             </div>
@@ -168,5 +173,9 @@
         
     </nav>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 #seccCrear{
-    top: 20px;
+    margin-top: 200px;
     background-size: cover;
     height: 2800px;
     align-items: center;
@@ -8,7 +8,7 @@
 }
 #imgFondoCrear{
     width: 100%;
-    margin-top: -825px;
+    margin-top: -770px;
 }
 .tituloCrear{
     top: 20px;
