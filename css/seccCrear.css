@@ -1,0 +1,94 @@
+#seccCrear{
+    margin-top: 200px;
+    background-size: cover;
+    height: 2800px;
+    align-items: center;
+    text-align: center;
+
+}
+#imgFondoCrear{
+    width: 100%;
+    margin-top: -770px;
+}
+.tituloCrear{
+    top: 20px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+}
+
+#contenidoCrear{
+    width: 100%;
+    padding-bottom: 40px;
+    position: absolute
+}
+
+#circulo1{
+    background-image: url('../img/seccCrear/Ellipse\ 7.svg');
+    width: 968px;
+    height: 1056.68px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.imgItem1{
+    margin-top: 250px;
+    margin-left: -390px;
+    position: absolute;
+}
+
+.imgEjem1{
+    position: absolute;
+    width: 552px;
+    height: 342px;
+    margin-top: 290px;
+    margin-left: -330px;
+}
+
+.txtSecc1{
+    margin-top: 700px;
+    margin-left: -130px;
+    font-weight: 400;
+    font-size: 72px;
+    color: white;
+}
+
+
+
+#circulo2{
+    background-image: url('../img/seccCrear/Ellipse\ 8.svg');
+    width: 930px;
+    height: 1020px;
+    margin-top: 1200px;
+    margin-left: 589px;
+    /* position: absolute; */
+    position: static;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .imgItem2{
+    margin-top: 250px;
+    margin-left: -390px;
+    position: absolute;
+} */
+
+.imgEjem2{
+    position: absolute;
+    margin-top: 200px;
+    right: 290px;
+}
+
+.txtSecc2{
+    margin-top: 725px;
+    margin-left: 250px;
+    font-weight: 400;
+    font-size: 72px;
+    color: white;
+    position: absolute;
+}

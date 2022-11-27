@@ -1,0 +1,54 @@
+#menu{
+    position: absolute;
+    height: 88px;
+    left: 60px;
+    right: 60px;
+    top: 22px;
+    display: grid;
+    grid-template-columns: 590px 200px;
+}
+
+ul{
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+
+#columna1Grid{
+    grid-column: 1;
+    text-align: left;
+}
+
+.opcMenu{
+    padding-right: 15px;
+    display: inline;
+}
+
+.txtMenu{
+    font-weight: 400;
+    font-size: 14px;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+#columna2Grid{
+    grid-column: 2;
+    text-align: center;
+}
+
+#logo{
+    width: 104px;
+}
+
+#columna3Grid{
+    grid-column: 3;
+    text-align: right;
+}
+
+.iconoRedSocial{
+    display:inline;
+}
+
+.decoracionLink{
+    text-decoration: none;
+}
