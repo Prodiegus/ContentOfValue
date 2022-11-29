@@ -1,0 +1,43 @@
+#seccNovedades{
+    /* background-image: url('./img/seccNovedades/fondo.jpg'); */
+    background-size: cover;
+    height: 866px;
+    
+}
+
+#imgFondo{
+    width: 100%;
+    top: -150px;
+    position:absolute;
+}
+
+#ContenedorNovedad{
+    top: 201px;
+    left: 165px;
+    position: absolute;
+    width: 570px;
+    height: 230px;
+}
+
+#celular{
+    position: absolute;
+    width: 350px;
+    height: 640px;
+    left: 966px;
+    top: 84px;
+}
+
+#tituloNovedad{
+    font-weight: 400;
+    font-size: 72px;
+    margin-top: 5px;
+}
+
+#descNovedad{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.btnNovedades{
+    margin-top: 602px;
+}
