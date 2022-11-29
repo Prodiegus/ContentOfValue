@@ -6,6 +6,7 @@
   text-align: center;
   background-size: cover;
   /* background-color: darkkhaki; */
+  margin-bottom: 500px;
 }
 .mar{
   padding-top: 20px;
@@ -22,57 +23,50 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   margin:0 auto;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin-top: -200px;
+  margin-bottom: 300px;
   width: 1200px;
   height: 224px;
 }
 
-#item1{
+.item{
   margin:0 auto;
   width: 233px;
   height: 224px;
-  background-color: coral;
 }
 
-.descItem{
+/* .descItem{
   margin:0 auto;
-  background-color: rgb(189, 147, 131);
+  background: linear-gradient(180deg, #DB8332 63.53%, #FFCD4D 100%);
   border-radius: 150px;
-  width: 233px;
-  height: 224px;
-  margin-top: -22px;
+  width: 230px;
+  height: 220px;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-.img2{
-  width: 233px;
-  height: 224px;
+.txtDesc{
+  font-size: 16px;
+  color: white;
+  padding: 30px;
+  padding-top: 55px;
+}
+
+.itemIcono{
+  width: 236px;
+  height: 227px;
   transition: all 300ms;
   position: absolute;
   margin-left: -116.5px;
   margin-top: -224.5px;
 }
 
-.img2:hover{
+.itemIcono:hover{
   transform: scale(0.35);
-  margin-left: -305px;
-  margin-top: -70px;
-}
-
-#item2{
-  margin:0 auto;
-  width: 233px;
-  height: 224px;
-}
-
-#item3{
-  margin:0 auto;
-  width: 233px;
-  height: 224px;
-}
+  margin-left: -190.5px;
+  margin-top: -325.5px;
+} */
 
 .fila::after {
   content: "";
@@ -81,18 +75,79 @@
   display: table;
 }
 
-.img{
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    text-align: center;
-}
-
 .btnMarketing{
   margin-top: 120px;
 }
 
 .btnMarketing:hover{
   background-color: bisque;
+}
+
+
+
+
+
+
+
+
+
+.contenedor{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contenedor figure{
+ position:relative;
+  height: 250px;
+  cursor: pointer;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  background: linear-gradient(180deg, #384F63 0%, #319ABE 100%);
+}
+.contenedor figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+.contenedor figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #DB8332 63.53%, #FFCD4D 100%);
+  transition: all 400ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+ text-align: center;
+}
+.contenedor figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+  transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 400ms ease-out;
+   margin-top: 30px;
+}
+.contenedor figure .capa p{
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
 }
