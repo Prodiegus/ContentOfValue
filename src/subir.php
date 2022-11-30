@@ -11,8 +11,8 @@ if (!$con) {
     echo "Error en conexión.";
 }
 
-$nombre = $_GET('Nombre')." ".$_GET('Apellido');
-$email = $_GET['Correo'];
+$nombre = $_POST('Nombre')." ".$_POST('Apellido');
+$email = $_POST['Correo'];
 $query = "SELECT * FROM cliente";
 $resultado =mysqli_query($con, $query);
 
