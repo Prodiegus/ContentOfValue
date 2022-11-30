@@ -16,6 +16,8 @@ $email = $_POST['Correo'];
 $query = "SELECT * FROM cliente";
 $resultado =mysqli_query($con, $query);
 
+header("location:subirPy.html");
+
 foreach ($resultado as $columna){
     echo $columna ['nombre'] . " ". $columna ['mail'];
 }
