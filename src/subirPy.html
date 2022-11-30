@@ -9,6 +9,9 @@
     <title>Content Of Value</title>
 </head>
 <body>
+    <py>
+        print("El python si jala")
+    </py>
     <py-script>
         import mysql.connector
         from datetime import date
@@ -22,7 +25,7 @@
                 host="contentofvalue.mysql.database.azure.com", 
                 port=3306, 
                 database="cov", 
-                ssl_ca="certificacion para data base\DigiCertGlobalRootCA.crt.pem", 
+                ssl_ca="../certificacion para data base\DigiCertGlobalRootCA.crt.pem", 
                 ssl_disabled=False
         )
 
@@ -38,6 +41,6 @@
             print(row)
 
     </py-script>
-    <a href="src/subirPy.html"><button type="submit" value="Sign up">Volver</button></a>
+    <a href="../index.html"><button type="submit" value="Sign up">Volver</button></a>
 </body>
 </html>
