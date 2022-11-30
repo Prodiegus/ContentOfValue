@@ -12,8 +12,8 @@
 }
 
 #ContenedorNovedad{
-    top: 201px;
-    left: 165px;
+    top: 200px;
+    left: 185px;
     position: absolute;
     width: 570px;
     height: 230px;
@@ -27,15 +27,23 @@
     top: 84px;
 }
 
+#video{
+    position: absolute;
+    width: 260px;
+    height: 560px;
+    left: 1000px;
+    top: 110px;
+}
+
 #tituloNovedad{
     font-weight: 400;
-    font-size: 72px;
+    font-size: 50px;
     margin-top: 5px;
 }
 
 #descNovedad{
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 .btnNovedades{
