@@ -137,7 +137,7 @@
     <div id="seccComunicate">
         <div class="Formulario">
             <div class="signupFrm" data-aos="fade-up">
-                <form action="" class="form" action="src/subir.php">
+                <form action="" class="form" method="post" action="src\subir.php">
                     <h1 class="com">¡Comunicate con nosotros!</h1>
                     <p class="subtitulo">Dejanos tu información para compartirte más información</p>                 
                 <div class="input">
@@ -158,27 +158,27 @@
 
                 <div class="checkboxServicios">
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkboxMarketing">
+                        <input type="checkbox" name="marketing" id="checkboxMarketing">
                         <label for="checkbox">Servicios de marketing</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkboxAds">
+                        <input type="checkbox" name="ads" id="checkboxAds">
                         <label for="checkbox">Facebook Ads & Google Ads</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkboxWeb">
+                        <input type="checkbox" name="tecnologia" id="checkboxWeb">
                         <label for="checkbox">Tecnología en tu marca</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkboxPublicitarios">
+                        <input type="checkbox" name="publicidad" id="checkboxPublicitarios">
                         <label for="checkbox">Videos publicitarios</label>
                     </div>
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <input type="checkbox" name="recibir" id="checkbox">
                         <label for="checkbox">Me interesa recibir correos con información sobre Content o Value </label>
                     </div>
                 </div>
-                <input type="button" class="submitBtn" value="Enviar">
+                <input id="enviar" name="send" type="submit" type="submit" class="submitBtn" value="Enviar">
                 </form>
                 </div>
             </div>

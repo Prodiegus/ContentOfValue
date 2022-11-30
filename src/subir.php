@@ -3,20 +3,19 @@
 $con = mysqli_init(); 
 mysqli_ssl_set($con,NULL,NULL, "..\certificacion para data base\DigiCertGlobalRootCA.crt.pem", NULL, NULL); 
 mysqli_real_connect(
-    $conn, "contentofvalue.mysql.database.azure.com", 
+    $con, "contentofvalue.mysql.database.azure.com", 
     "ovni", 
     "ContentOfValue#2022", "cov", 3306, MYSQLI_CLIENT_SSL);
 
 if (!$con) {
     echo "Error en conexión.";
 }
-
-$nombre = $_POST('Nombre')." ".$_POST('Apellido');
+/*
+$nombre = $_POST['Nombre']." ".$_POST['Apellido'];
 $email = $_POST['Correo'];
+$marketing = $_POST['marketing'];*/
 $query = "SELECT * FROM cliente";
 $resultado =mysqli_query($con, $query);
-
-header("location:subirPy.html");
 
 foreach ($resultado as $columna){
     echo $columna ['nombre'] . " ". $columna ['mail'];
