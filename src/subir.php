@@ -10,16 +10,44 @@ mysqli_real_connect(
 if (!$con) {
     echo "Error en conexión.";
 }
-/*
+
 $nombre = $_POST['Nombre']." ".$_POST['Apellido'];
 $email = $_POST['Correo'];
-$marketing = $_POST['marketing'];*/
-$query = "SELECT * FROM cliente";
-$resultado =mysqli_query($con, $query);
-
-foreach ($resultado as $columna){
-    echo $columna ['nombre'] . " ". $columna ['mail'];
+$marketing = $_POST['marketing'];
+if($marketing=='on'){
+    $marketing = 1;
+}else{
+    $marketing = 0;
 }
+$ads = $_POST['ads'];
+if($ads=='on'){
+    $ads = 1;
+}else{
+    $ads = 0;
+}
+$tecnologia = $_POST['tecnologia'];
+if($tecnologia=='on'){
+    $tecnologia = 1;
+}else{
+    $tecnologia = 0;
+}
+$publicidad = $_POST['publicidad'];
+if($publicidad=='on'){
+    $publicidad = 1;
+}else{
+    $publicidad= 0;
+}
+$recibir = $_POST['recibir'];
+if($recibir =='on'){
+    $recibir = 1;
+}else{
+    $recibir = 0;
+}
+
+$query = "INSERT INTO cliente (mail, marketing, publicidad, ads, tecnologia, recibir, nombre)
+    VALUES ('$email', $marketing, $publicidad, $ads, $tecnologia, $recibir, '$nombre');";
+$resultado = mysqli_query($con, $query);
+
 
 /*
 if(isset($_POST['enviar'])){
