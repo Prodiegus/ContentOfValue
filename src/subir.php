@@ -48,10 +48,7 @@ $query = "INSERT INTO cliente (mail, marketing, publicidad, ads, tecnologia, rec
     VALUES ('$email', $marketing, $publicidad, $ads, $tecnologia, $recibir, '$nombre');";
 $resultado = mysqli_query($con, $query);
 
-if($recibir==1){
-    $query = "INSERT INTO recibir (mail, marketing, publicidad, ads, tecnologia, recibir, nombre)
-    VALUES ('$email', $marketing, $publicidad, $ads, $tecnologia, $recibir, '$nombre');";
-}
+header("location:../index.html");
 /*
 if(isset($_POST['enviar'])){
     if(!empty($_POST['nombre'])&&!empty($_POST['email'])){
