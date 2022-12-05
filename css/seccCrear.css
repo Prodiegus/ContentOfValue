@@ -32,8 +32,42 @@
     text-align: center;
     justify-content: center;
 }
-
-
+.logos{
+    width: 930px;
+    height: 1020px;
+    margin-left: 589px;
+    /* position: absolute; */
+    position: static;
+    align-items: right;
+    text-align: right;
+}
+.otro{
+    font-family: "Raleway";
+    color: white;
+}
+.tablas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    border-collapse:collapse;
+    border: none;
+    padding: 0;
+    justify-content: center;
+}
+.ovniscorp{
+    width: 200px;
+    height: 200px;
+}
+.lonatural{
+    width: 200px;
+    height: 200px;
+}
+.impact{
+    width: 200px;
+    height: 200px;
+}
 .imgItem1{
     margin-top: 250px;
     margin-left: -390px;
@@ -55,8 +89,6 @@
     font-size: 72px;
     color: white;
 }
-
-
 
 #circulo2{
     background-image: url('../img/seccCrear/Ellipse\ 8.svg');
