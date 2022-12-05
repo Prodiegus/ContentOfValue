@@ -34,7 +34,6 @@
 }
 
 
-
 .imgItem1{
     margin-top: 250px;
     margin-left: -390px;
@@ -79,6 +78,12 @@
 } */
 
 .imgEjem2{
+    position: absolute;
+    margin-top: 209px;
+    right: 295px;
+}
+
+.imgItem2{
     position: absolute;
     margin-top: 200px;
     right: 290px;
